@@ -1,4 +1,4 @@
-https://github.com/medhaa09/webexec_task2.git
+
 # Star Wars API Integration with Go Backend
 
 ## Overview
@@ -22,17 +22,17 @@ git clone https://github.com/medhaa09/webexec_task2.git
 ```bash
 go mod tidy
 ```
-###run
+### run
 ```bash
 go run main.go
 ```
-###Access the API endpoint
+### Access the API endpoint
 To retrieve planet data, use the following endpoint:
 
 ```bash
 http://localhost:8080/planet
 ```
-###Configuration
+### Configuration
 You can adjust caching parameters in the main() function of main.go:
 ```bash
 c = cache.New(10*time.Minute, 1*time.Minute)
